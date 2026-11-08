@@ -3,7 +3,7 @@
 ## Base URL
 
 ```
-http://localhost:3000
+https://studentnote-project.onrender.com
 ```
 
 All endpoints below are relative to this base URL.
@@ -19,7 +19,7 @@ Most endpoints require a JWT access token.
 If you have not built a frontend yet, use **Postman** to register, log in, and call the API.
 
 1. Open Postman and create a new request.
-2. Set the method to **POST** and the URL to `http://localhost:3000/api/auth/register` (or `/api/auth/login` if you already have an account).
+2. Set the method to **POST** and the URL to `https://studentnote-project.onrender.com/api/auth/register` (or `/api/auth/login` if you already have an account).
 3. Go to the **Body** tab → select **raw** → choose **JSON** → send your register/login JSON.
 4. Send the request and copy the `token` value from the response.
 5. For protected endpoints (profile, notes), create a new request and open the **Authorization** tab.
